@@ -14,6 +14,11 @@ Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB.
 - [What's New in Grafana 2.0](http://docs.grafana.org/guides/whats-new-in-v2/)
 - [What's New in Grafana 2.1](http://docs.grafana.org/guides/whats-new-in-v2-1/)
 - [What's New in Grafana 2.5](http://docs.grafana.org/guides/whats-new-in-v2-5/)
+## Customizations
+- Use docker as a dev environment (athion/grafana-dev)
+- docker run -v `pwd`:/code/src/github.com/daviskirk/grafana athion/grafana-dev npm install
+- docker run -v `pwd`:/code/src/github.com/daviskirk/grafana athion/grafana-dev grunt
+
 
 ## Features
 ### Graphite Target Editor

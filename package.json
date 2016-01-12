@@ -50,7 +50,8 @@
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.0",
     "systemjs": "0.19.6",
-    "zone.js": "0.5.10"
+    "zone.js": "0.5.10",
+    "phantomjs": ">=0.1.9"
   },
   "engines": {
     "node": "0.4.x",
